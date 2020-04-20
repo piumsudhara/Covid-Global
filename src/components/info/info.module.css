@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(250, 250, 250);
+  /* background-image: url(../../img/particle.mp4); */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.image {
+  width: 1000px;
+  height: 250px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 25vw;
+  margin: 10px 0;
+}
+
+.buttons button {
+  width: 45%;
+}
+@media (max-width: 770px) {
+  .container {
+    margin-top: 40px;
+  }
+
+  .image {
+    width: 30%;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 10px 0;
+  }
+
+  .buttons button {
+    width: 45%;
+  }
+}

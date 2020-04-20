@@ -1,0 +1,13 @@
+.formControl {
+  display: flex;
+  width: 30%;
+}
+
+@media (max-width: 770px) {
+  .formControl {
+    width: 80%;
+  }
+  .btn {
+    width: 100%;
+  }
+}
